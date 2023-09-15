@@ -1,0 +1,40 @@
+body {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.regInput {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+.wrapper-form{
+    /* background: rgba(128, 128, 128, 0.354); */
+    background: rgba(255, 255, 255, 0.200);
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper-form form label {
+    width: 75px;
+    height: 25px;
+}
+
+.btn-submit {
+    width: 100%;
+}
+
+.form-error{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-error small {
+    color: rgb(205, 80, 80) !important;
+}
