@@ -40,8 +40,8 @@
                 @enderror
             </div>
             <br><br>
-
             <button class="btn btn-success btn-submit" type="submit">Submit</button>
+            <br><br><br>
         </form>
     </div>
 @endsection
